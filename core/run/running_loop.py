@@ -117,7 +117,7 @@ class RunnerDriver:
             _wandb_watch_model(get_model(self.model), self.wandb_instance, self.runtime_vars.watch_model_parameters,
                                self.runtime_vars.watch_model_gradients, self.runtime_vars.watch_model_freq)
 
-        print_model_efficiency_assessment(self.efficiency_assessor, get_model(self.model), self.wandb_instance)
+        # print_model_efficiency_assessment(self.efficiency_assessor, get_model(self.model), self.wandb_instance)
 
         start_time = time.perf_counter()
 

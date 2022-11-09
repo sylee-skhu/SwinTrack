@@ -77,7 +77,7 @@ branch:
 
 data:
   train:
-    batch_size: 64
+    batch_size: 512
 
     type: "SiamFC"
 
@@ -115,7 +115,7 @@ data:
         color_jitter: 0.4
 
   val:
-    batch_size: 64
+    batch_size: 512
 
     type: "SiamFC"
 
@@ -145,7 +145,7 @@ data:
     processor: *processor_configs
 
   test:
-    batch_size: 8
+    batch_size: 64
 
     type: "Sequential"
 
