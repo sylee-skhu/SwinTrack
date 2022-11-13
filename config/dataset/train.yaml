@@ -25,11 +25,11 @@ datasets:
     sampling:
       weight: 1
 
-  # LaSOT:
-  #   splits:
-  #     - "train"
-  #   sampling:
-  #     weight: 1
+  LaSOT:
+    splits:
+      - "train"
+    sampling:
+      weight: 1
 
   # TrackingNet:
   #   splits:

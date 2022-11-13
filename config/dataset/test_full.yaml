@@ -22,11 +22,11 @@ datasets:
       - "val"
       - "test"
 
-  # LaSOT:
-  #   splits:
-  #     - "val"
+  LaSOT:
+    splits:
+      - "val"
 
-  # LaSOT_Extension:
+  LaSOT_Extension:
 
   # TrackingNet:
   #   splits:
